@@ -1,0 +1,59 @@
+:host {
+    display: block;
+    font-family: system-ui, sans-serif;
+}
+
+table {
+    cursor: default;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ecececf3;
+}
+
+td:hover {
+    background-color: #e2e2e2f3;
+}
+
+button {
+    background-color: transparent;
+    color: #c8c8c8;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+
+    :hover {
+        color: #000000;
+    }
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    appearance: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marked {
+    background-color: #cecece;
+}
+
+.weekend {
+    background-color: #c8c8c8;
+}
+
+.disabled {
+    opacity: .3;
+}
