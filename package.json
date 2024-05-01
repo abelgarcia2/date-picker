@@ -1,18 +1,35 @@
 {
-  "name": "@abelgarcia/date-picker",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@abelgarcia2/date-picker",
+  "version": "0.1.0-dev",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
   "type": "module",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "rollup --config",
-    "dev": "rollup --config --watch"
+    "watch": "rollup --config --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description  ": "",
+  "keywords": [
+    "web-component",
+    "webcomponent",
+    "datepicker",
+    "date-picker",
+    "vanilla-js",
+    "vanilla-javascript"
+  ],
+  "author": "Abel García <abelgarcia2.mardi688@slmails.com> (https://github.com/abelgarcia2/)",
+  "license": "GPL-3.0-only",
+  "bugs": "https://github.com/abelgarcia2/date-picker/issues",
+  "description": "A simple date picker web component built with Vanilla JS",
   "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^4.14.0",
     "rollup-plugin-string": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelgarcia2/date-picker.git"
   }
 }
