@@ -1,7 +1,7 @@
 # &lt;date-picker/&gt;
 
 [<img src='https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fabelgarcia2%2Fdate-picker%2Fmaster%2Fpackage.json&query=version&style=plastic&logo=npm&label=npm&color=ef953b'/>](https://www.npmjs.com/package/@abelgarcia2/date-picker)
-![GitHub License](https://img.shields.io/github/license/abelgarcia2/date-picker?style=plastic&color=ef953b)
+[<img src='https://img.shields.io/github/license/abelgarcia2/date-picker?style=plastic&color=ef953b'/>](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 A simple date picker web component built with Vanilla JS 🗓️
 
