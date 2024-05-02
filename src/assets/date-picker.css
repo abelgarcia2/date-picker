@@ -46,12 +46,12 @@ select {
     justify-content: space-between;
 }
 
-.marked {
-    background-color: #635e5e;
-}
-
 .weekend {
     background-color: #c8c8c8;
+}
+
+.marked {
+    background-color: #635e5e;
 }
 
 .disabled {
