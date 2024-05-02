@@ -12,7 +12,7 @@ A simple date picker web component built with Vanilla JS 🗓️
 ## Usage
 First import the component
 ```html
-<script src="https://unpkg.com/@abelgarcia2/date-picker@0.1.0-dev/dist/bundle.min.js"></script>
+<script src="https://unpkg.com/@abelgarcia2/date-picker@0.1.2-dev/dist/bundle.min.js"></script>
 ```
 
 Then use the component in your html
@@ -25,6 +25,11 @@ Get selected date
 document.getElementById("picker").getSelectedDate()
 ```
 
+Listen to changes
+```js
+let picker = document.getElementById("picker");
+picker.addEventListener('changeDate', (event) => console.log(event.detail));
+```
 
 ## Example
-See working example at [codi.link](https://codi.link/PGRhdGUtcGlja2VyIGlkPSJwaWNrZXIiIHN0eWxlPSJ3aWR0aDogMzAwcHg7Ij48L2RhdGUtcGlja2VyPgo8YnIvPgo8YnV0dG9uIGlkPSJnZXQtZGF0ZSI+R2V0IGRhdGU8L2J1dHRvbj4KPHNwYW4+U2VsZWN0ZWQgZGF0ZSBpczogPC9zcGFuPjxzcGFuIGlkPSJzZWxlY3RlZC1kYXRlIj48L3NwYW4+Cgo8c2NyaXB0IHNyYz0iaHR0cHM6Ly91bnBrZy5jb20vQGFiZWxnYXJjaWEyL2RhdGUtcGlja2VyQDAuMS4wLWRldi9kaXN0L2J1bmRsZS5taW4uanMiPjwvc2NyaXB0Pg==||ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2dldC1kYXRlJykuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoKSA9PiB7CiAgbGV0IGRhdGUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncGlja2VyJykuZ2V0U2VsZWN0ZWREYXRlKCk7CiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NlbGVjdGVkLWRhdGUnKS50ZXh0Q29udGVudCA9IGRhdGUudG9EYXRlU3RyaW5nKCk7Cn0pOw==)
+See working example at [codi.link](https://codi.link/PGRhdGUtcGlja2VyIGlkPSJwaWNrZXIiIHN0eWxlPSJ3aWR0aDogMzAwcHg7Ij48L2RhdGUtcGlja2VyPgo8YnIvPgo8c3Bhbj5TZWxlY3RlZCBkYXRlIGlzOiA8L3NwYW4+PHNwYW4gaWQ9InNlbGVjdGVkLWRhdGUiPjwvc3Bhbj4KCjxzY3JpcHQgc3JjPSJodHRwczovL3VucGtnLmNvbS9AYWJlbGdhcmNpYTIvZGF0ZS1waWNrZXJAMC4xLjItZGV2L2Rpc3QvYnVuZGxlLm1pbi5qcyI+PC9zY3JpcHQ+||bGV0IHBpY2tlciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwaWNrZXInKTsKCmNvbnN0IHNldFNlbGVjdGVkRGF0ZSA9IChzZWxlY3RlZERhdGUpID0+IHsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2VsZWN0ZWQtZGF0ZScpLnRleHRDb250ZW50ID0gc2VsZWN0ZWREYXRlOwp9OwoKc2V0U2VsZWN0ZWREYXRlKHBpY2tlci5nZXRTZWxlY3RlZERhdGUoKS50b0RhdGVTdHJpbmcoKSk7CgpwaWNrZXIuYWRkRXZlbnRMaXN0ZW5lcignY2hhbmdlRGF0ZScsIChlKSA9PiBzZXRTZWxlY3RlZERhdGUoZS5kZXRhaWwudG9EYXRlU3RyaW5nKCkpKQo=)
