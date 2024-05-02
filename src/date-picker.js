@@ -196,6 +196,9 @@ export default class DatePickerElement extends HTMLElement {
                 } else {
                     td.classList.add("marked");
                 }
+
+                let changeDateEvent = new CustomEvent('changeDate', {detail: this.markedDate});
+                this.dispatchEvent(changeDateEvent);
             });
         })
     }
