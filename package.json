@@ -1,6 +1,6 @@
 {
   "name": "@abelgarcia2/date-picker",
-  "version": "0.1.0-dev",
+  "version": "0.1.2-dev",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
   "type": "module",
